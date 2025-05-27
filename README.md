@@ -4,6 +4,7 @@ This project aims to develop an effective classification model to predict corpor
 Which financial indicators are the most significant predictors of coroporate bankruptcy?    
 How do macroeconomic conditions affect the bankruptcy risk of companies with different financial profiles?    
 Can machine learning algorithms significantly improve prediction accuracy compared to traditional statistical methods when applied to financial ratio analysis?  
+
 Exploratory data analysis revealed a strong imbalance in the bankruptcy status label, where 93% of data points were associated with the negative class (alive companies). Predictor variables also showed positive skewness, an inflated number of near-zero values, and extreme variability. The team attempted to correct for this by calculating relative metrics, financial ratios, and normalizing the features, but ultimately, this imbalance still proved challenging for the best performing models.    
 
 A clustering analysis using **KMeans** and **Bisecting KMeans** was intially performed to identify common characteristics among bankrupt firms. The **KMeans** models were superior for both the absolute and ratio data, utilizing 2 clusters and 4 clusters, respectively. Companies were largely grouped by their size, highlighted by those with extraordinarily high debt, low liquidity, and low retained earnings.  
